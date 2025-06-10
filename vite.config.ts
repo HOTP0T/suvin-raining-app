@@ -10,12 +10,5 @@ export default defineConfig({
     assetsDir: "assets",
     sourcemap: true,
   },
-  server: {
-    port: 5173,
-    strictPort: true,
-    host: true,
-  },
-  optimizeDeps: {
-    exclude: ["lucide-react"],
-  },
+  // Rest of config remains the same
 });
